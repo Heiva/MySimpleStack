@@ -1,6 +1,6 @@
 package dcll.adav.MySimpleStack;
 
-import junit.framework.Assert;
+import org.junit.*;
 
 public class SimpleStackImplTest {
 	SimpleStack simpleStack;
