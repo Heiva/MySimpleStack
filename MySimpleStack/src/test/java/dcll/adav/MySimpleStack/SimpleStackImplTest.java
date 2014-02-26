@@ -3,9 +3,10 @@ package dcll.adav.MySimpleStack;
 import junit.framework.Assert;
 
 public class SimpleStackImplTest {
-	SimpleStack simpleStack =  new SimpleStackImpl();;
+	SimpleStack simpleStack;
 	
 	public void setUp() {
+		simpleStack = new SimpleStackImpl();
 	}
 	
 	public void test() {
